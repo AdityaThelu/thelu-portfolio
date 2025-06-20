@@ -930,6 +930,14 @@ body {
   display: block;
 }
 
+.icon-container svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  stroke: white;
+  fill: none;
+  display: block;
+}
+
 .project-title {
   font-size: 1.25rem;
   font-weight: 700;
