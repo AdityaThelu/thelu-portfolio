@@ -922,6 +922,14 @@ body {
   color: white;
 }
 
+.project-icon svg {
+  width: 2rem;
+  height: 2rem;
+  stroke: white;
+  fill: none;
+  display: block;
+}
+
 .project-title {
   font-size: 1.25rem;
   font-weight: 700;
