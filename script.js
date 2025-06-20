@@ -1,8 +1,4 @@
-  
 document.addEventListener("DOMContentLoaded", () => {
-  // Initialize Lucide icons
-  lucide.createIcons()
-
   // Log Experience section icon element to verify replacement
   const experienceIcon = document.querySelector('i[data-lucide="briefcase"]')
   console.log("Experience icon element after lucide.createIcons():", experienceIcon)
@@ -249,10 +245,3 @@ function optimizeForPrint() {
   `
   document.head.appendChild(style)
 }
-
-document.addEventListener("DOMContentLoaded", optimizeForPrint)
-
-// Re-initialize Lucide icons after all DOMContentLoaded listeners
-window.addEventListener("load", () => {
-  lucide.createIcons()
-})
